@@ -1,0 +1,23 @@
+{
+  "games": [
+    {
+      "id":"3562341",
+      "title": "Short Life",
+      "description": "Short Life is an interesting ragdoll game. Dodge obstacles and complete levels while trying to keep your character alive.",
+      "image": "https://www.crazygames.com/gameimages/short-life-cover-small.jpg",
+      "url": "https://www.crazygames.com/game/short-life"
+    },
+    {
+      "title": "Madalin Stunt Cars 2",
+      "description": "Madalin Stunt Cars 2 is an amazing 3D car driving game featuring a wide range of sports cars and thrilling stunts.",
+      "image": "https://images.crazygames.com/games/madalin-stunt-cars-2/cover-1655194270732.png?",
+      "url": "https://www.crazygames.com/game/madalin-stunt-cars-2"
+    },
+    {
+      "title": "Shell Shockers",
+      "description": "Shell Shockers is a multiplayer first-person-shooter game featuring egg characters armed with powerful weapons.",
+      "image": "https://www.crazygames.com/gameimages/shell-shockers-cover-small.jpg",
+      "url": "https://www.crazygames.com/game/shell-shockers"
+    }
+  ]
+}

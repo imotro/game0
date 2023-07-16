@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      const selectedGame;
+    </script>
+      
+    <title>Game Site</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navbar {
+        background-color: #444;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .navbar h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .game-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      .game-iframe {
+        width: 100%;
+        height: 500px;
+        border: none;
+        margin-bottom: 20px;
+      }
+
+      .game-description {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Game Site</h1>
+    </div>
+    <div class="container">
+      <% if (selectedGame) { %>
+      <h2 class="game-title"><%= selectedGame.title %></h2>
+      <iframe class="game-iframe" src="<%= selectedGame.url %>"></iframe>
+      <p class="game-description"><%= selectedGame.description %></p>
+      <% } else { %>
+      <h1>Games</h1>
+      <div id="gameList">
+        <% games.forEach(game => { %>
+        <a href="/game/<%= game.url %>" class="game-card">
+          <img src="<%= game.image %>" alt="<%= game.title %>">
+          <div class="game-card-content">
+            <h3 class="game-card-title"><%= game.title %></h3>
+            <p class="game-card-description"><%= game.description %></p>
+          </div>
+        </a>
+        <% }); %>
+      </div>
+      <% } %>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
