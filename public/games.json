@@ -1,23 +1,109 @@
 {
   "games": [
     {
-      "id":"3562341",
-      "title": "Short Life",
-      "description": "Short Life is an interesting ragdoll game. Dodge obstacles and complete levels while trying to keep your character alive.",
-      "image": "https://www.crazygames.com/gameimages/short-life-cover-small.jpg",
-      "url": "https://www.crazygames.com/game/short-life"
+      "id": "86390",
+      "title": "2048",
+      "description": "Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!",
+      "image": "https://db-test.merkb.repl.co/g/2048/favicon.ico",
+      "url": "https://db-test.merkb.repl.co/g/2048/"
     },
     {
-      "title": "Madalin Stunt Cars 2",
-      "description": "Madalin Stunt Cars 2 is an amazing 3D car driving game featuring a wide range of sports cars and thrilling stunts.",
-      "image": "https://images.crazygames.com/games/madalin-stunt-cars-2/cover-1655194270732.png?",
-      "url": "https://www.crazygames.com/game/madalin-stunt-cars-2"
+      "id": "121101",
+      "title": "1v1.lol",
+      "description": "Engage in thrilling 1v1 battles and showcase your skills in this action-packed multiplayer game!",
+      "image": "https://mrkG.merkb.repl.co/images/1v1.png",
+      "url": "https://webglmath.github.io/1v1-lol/"
     },
     {
-      "title": "Shell Shockers",
-      "description": "Shell Shockers is a multiplayer first-person-shooter game featuring egg characters armed with powerful weapons.",
-      "image": "https://www.crazygames.com/gameimages/shell-shockers-cover-small.jpg",
-      "url": "https://www.crazygames.com/game/shell-shockers"
+      "id": "64920",
+      "title": "Minecraft",
+      "description": "Immerse yourself in the blocky world of Minecraft and unleash your creativity in this sandbox adventure game!",
+      "image": "https://mrkG.merkb.repl.co/images/mc.jpeg",
+      "url": "https://mrkg.merkb.repl.co/main/minecraft/1.5.2.html"
+    },
+    {
+      "id": "23012",
+      "title": "Subway surfers",
+      "description": "Join the exciting chase in Subway Surfers and run as fast as you can to escape the grumpy inspector!",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=258,height=258,fit=cover,f=auto/32b84f5c32c5bbb63fc99a718581e25a.png",
+      "url": "https://www.gamegab.com/content/games/subway-surfers-mumbai/index.htm"
+    },
+    {
+      "id": "21309",
+      "title": "OvO",
+      "description": "Navigate through challenging levels and overcome obstacles in OvO, a visually stunning platformer game!",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/85db6b2eb81ca64d881a950a43744389.png",
+      "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://427396048-642845047394716217.preview.editmysite.com/uploads/b/139890129-761103484729797659/files/ovof.xml"
+    },
+    {
+      "id": "89345",
+      "title": "Lego 2k Drive",
+      "description": "Get behind the wheel of various Lego vehicles and race through exciting tracks in this fun-filled racing game!",
+      "image": "https://img.gamedistribution.com/d65a451bfe65401ab95ec2d98c592ef3-512x512.jpeg",
+      "url": "https://html5.gamedistribution.com/rvvASMiM/d65a451bfe65401ab95ec2d98c592ef3/index.html?gdpr-targeting=0&gdpr-third-party=1&gd_sdk_referrer_url=https://ovo-game.com//ovo-game.embed"
+    },
+    {
+      "id": "23593",
+      "title": "Getaway shootout",
+      "description": "Engage in intense shootouts and chase sequences in Getaway Shootout, a fast-paced action game!",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/934bde36-a4a1-43d0-8b35-30f15feddbb4.png",
+      "url": "https://982546b5-4a7d-47bb-a113-fced75228ad0.id.repl.co"
+    },
+    {
+      "id": "08351",
+      "title": "A dance of fire and ice",
+      "description": "Embark on a rhythmic journey and synchronize your moves to the music in this captivating dance game!",
+      "image": "https://img.kbhgames.com/2019/10/A-Dance-of-Fire-and-Ice.jpg",
+      "url": "https://html5-games.io/game/a-dance-of-fire-and-ice/"
+    },
+    {
+      "id": "82410",
+      "title": "Nitro speed",
+      "description": "Burn rubber and reach extreme speeds in Nitro Speed, an adrenaline-pumping racing game that will test your skills!",
+      "image": "https://img.gamedistribution.com/78f8ba4571c94a598f86724e0cce0daf-512x512.jpeg",
+      "url": "https://html5.gamedistribution.com/rvvASMiM/78f8ba4571c94a598f86724e0cce0daf/index.html?gd_sdk_referrer_url=https://ovo-game.com//ovo-game.embed"
+    },
+    {
+      "id": "18943",
+      "title": "Tanuki sunset",
+      "description": "Experience the thrill of downhill longboarding in Tanuki Sunset and perform epic tricks along the way!",
+      "image": "https://geometrydash-free.com/data/image/tanuki-sunset.png",
+      "url": "https://v6p9d9t4.ssl.hwcdn.net/html/1756009/WebGL/index.html"
+    },
+    {
+      "id": "38461",
+      "title": "Drift hunters",
+      "description": "Take control of powerful drift cars and slide around challenging tracks in this exciting drifting game!",
+      "image": "https://play-lh.googleusercontent.com/smo8Ln-PRREDGq_QjA-Nws7ZNJQhvQfUB2oA8XV0GW12uq6hqdhvwXCB2rdl6zjekcow",
+      "url": "https://webglmath.github.io/drift-hunters/"
+    },
+    {
+      "id": "67665",
+      "title": "Monkey mart",
+      "description": "Help the adorable monkey run a successful grocery store and satisfy the customers' demands in Monkey Mart!",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=256,height=256,fit=cover,f=auto/b3668d7deb043d0f43b5813b0365be8f.png",
+      "url": "https://slope-game.github.io/newgame/monkey-mart/"
+    },
+    {
+      "id": "94124",
+      "title": "Bloons tower defense 4",
+      "description": "Strategically place your towers and pop waves of colorful balloons in Bloons Tower Defense 4!",
+      "image": "https://gameforge.com/de-DE/littlegames/includes/images/games/13426_5ec634fec15e3.jpg",
+      "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fbloons-tower-defense-4.xml"
+    },
+    {
+      "id": "40581",
+      "title": "My friend pedro",
+      "description": "Embark on an action-packed adventure with your friend Pedro and unleash a barrage of bullets and acrobatic moves!",
+      "image": "https://play-lh.googleusercontent.com/8EV8th7xc_GBuVFFKifduoEfNsBAutI_cL9FTWZ17aqcqfflJEBC_pGAjCFgWLnldZBJ",
+      "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fmy_friend_pedro.xml"
+    },
+    {
+      "id": "96104",
+      "title": "Papa's Freezeria",
+      "description": "Manage Papa's Freezeria and serve delicious frozen treats to customers in this fun time-management game!",
+      "image": "https://otc.watch/wp-content/uploads/2018/04/papasfreezeria_300x300.jpg",
+      "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-freezeria.xml"
     }
   ]
 }

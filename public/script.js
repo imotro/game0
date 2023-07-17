@@ -1,13 +1,6 @@
 const searchInput = document.getElementById('searchInput');
 const gameCards = Array.from(document.getElementsByClassName('game-card'));
 
-gameCards.forEach(card => {
-  card.addEventListener('click', () => {
-    const gameId = card.dataset.gameId;
-    window.location.href = `/game/${gameId}`;
-  });
-});
-
 searchInput.addEventListener('input', () => {
   const searchQuery = searchInput.value.toLowerCase();
 
@@ -16,9 +9,9 @@ searchInput.addEventListener('input', () => {
     const title = titleElement.innerText.toLowerCase();
 
     if (title.includes(searchQuery)) {
-      card.style.display = 'flex';  // Show the card
+      card.style.display = 'flex';
     } else {
-      card.style.display = 'none';  // Hide the card
+      card.style.display = 'none';
     }
   });
 });

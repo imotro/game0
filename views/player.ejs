@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game0</title>
+<link href="/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 style="font-family:monospace;">Game0</h1>
+      <div>
+        <a href="/">Home</a>
+        <a href="/games">Games</a>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="game-title"><%= game.title %></h1>
+      <iframe class="game-iframe" src="<%= game.url %>"></iframe>
+            <button onclick="document.getElementsByClassName('game-iframe')[0].requestFullscreen()">Fullscreen</button>
+      <p class="game-description"><%= game.description %></p>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -27,18 +27,22 @@ app.get('/games', (req, res) => {
 });
 
 app.get('/game/:id', (req, res) => {
-  const gameId = parseInt(req.params.id);
+  const gameId = req.params.id
 
   fs.readFile('public/games.json', 'utf8', (err, data) => {
     if (err) {
       console.error(err);
-      res.status(500).send('Internal Server Error');
+      res.status(500).send('<p style="font-family:monospace;">Internal Server Error</p>');
       return;
     }
 
     const gamesData = JSON.parse(data);
     const game = gamesData.games.find(g => g.id === gameId);
 
-    res.render('gamePage', { game });
+    res.render('player', { game });
   });
 });
+
+app.use((req, res, next) => {
+  res.status(404).render('404')
+})

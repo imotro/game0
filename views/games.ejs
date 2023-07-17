@@ -1,72 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-      const selectedGame;
-    </script>
-      
-    <title>Game Site</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-      }
-
-      .navbar {
-        background-color: #444;
-        color: #fff;
-        padding: 10px;
-      }
-
-      .navbar h1 {
-        margin: 0;
-        font-size: 24px;
-      }
-
-      .container {
-        max-width: 960px;
-        margin: 20px auto;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-      }
-
-      .game-title {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 0;
-        margin-bottom: 10px;
-      }
-
-      .game-iframe {
-        width: 100%;
-        height: 500px;
-        border: none;
-        margin-bottom: 20px;
-      }
-
-      .game-description {
-        margin-bottom: 20px;
-      }
-    </style>
+    <title>Game0</title>
+<link href="/styles.css" rel="stylesheet">
+    <link href="https://i.ibb.co/y6L3X97/image.png" rel="icon">
   </head>
-  <body>
+  <body
     <div class="navbar">
-      <h1>Game Site</h1>
+      <h1>Game0</h1>
+      <div>
+        <a href="/">Home</a>
+        <a href="/games">Games</a>
+      </div>
     </div>
     <div class="container">
-      <% if (selectedGame) { %>
-      <h2 class="game-title"><%= selectedGame.title %></h2>
-      <iframe class="game-iframe" src="<%= selectedGame.url %>"></iframe>
-      <p class="game-description"><%= selectedGame.description %></p>
-      <% } else { %>
-      <h1>Games</h1>
+      <center><h1 t="1">Game0</h1></center>
+      <center><input id="searchInput" placeholder="search for games..."></center>
       <div id="gameList">
         <% games.forEach(game => { %>
-        <a href="/game/<%= game.url %>" class="game-card">
+        <a href="/game/<%= game.id %>" class="game-card">
           <img src="<%= game.image %>" alt="<%= game.title %>">
           <div class="game-card-content">
             <h3 class="game-card-title"><%= game.title %></h3>
@@ -75,7 +27,6 @@
         </a>
         <% }); %>
       </div>
-      <% } %>
     </div>
     <script src="/script.js"></script>
   </body>
