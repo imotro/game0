@@ -1,8 +1,8 @@
-const searchInput = document.getElementById('searchInput');
+const search = document.getElementById('searchInput');
 const gameCards = Array.from(document.getElementsByClassName('game-card'));
 
-searchInput.addEventListener('input', () => {
-  const searchQuery = searchInput.value.toLowerCase();
+search.addEventListener('input', () => {
+  const searchQuery = search.value.toLowerCase();
 
   gameCards.forEach(card => {
     const titleElement = card.querySelector('.game-card-title');

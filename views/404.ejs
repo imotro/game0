@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<body>
+    <h1>404</h1>
+    <p>Sorry, the page you were looking for doesnt exist</p>
+    <p>Don't worry, we've got plenty of other exciting games for you to explore.</p>
+    <a href="/games" style="text-decoration:#fff white">See games</a>
+</body>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game0 - 404 Error</title>
+      <link href="https://i.ibb.co/y6L3X97/image.png" rel="icon">
     <style>
         body {
             background-color: #000000;
             color: #FF0000;
             font-family: Arial, sans-serif;
             text-align: center;
-            padding-top: 100px;
         }
         h1 {
             font-size: 58px;
@@ -27,10 +33,12 @@
         }
     </style>
 </head>
-<body>
-    <h1>404</h1>
-    <p>Oops! The page you're looking for is not found.</p>
-    <p>Don't worry, we've got plenty of other exciting games for you to explore.</p>
-    <a href="/games">See games</a>
-</body>
+        <script>
+        let fav= localStorage.getItem('fav') || 'https://i.ibb.co/y6L3X97/image.png';
+        let title = localStorage.getItem('title') || 'Game0';
+        let toSet = document.querySelector('link[rel=icon]')
+        toSet.href = fav
+       toSet = document.querySelector('title')
+        toSet.innerHtml = title
+      </script>
 </html>
