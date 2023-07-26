@@ -22,7 +22,9 @@
       <center><h1 t="1">Game0</h1></center>
       <center><input id="searchInput" placeholder="search for games..."></center>
       <div id="gameList">
-        <button onclick="document.querySelectorAll('a.game-card').forEach((e)=>{e.classList.toggle('card')});let i = document.getElementById('button').innerHTML; i = i=='List view'?'Card view':'List view'; document.getElementById('button').innerHTML = i" id="button" onmouseenter="document.getElementById('button').style.cursor = 'pointer'">Card view</button>
+        
+        <button onclick="document.querySelectorAll('a.game-card').forEach((e)=>{e.classList.toggle('card')});let i = document.getElementById('button').innerHTML; i = i=='List view'?'Card view':'List view'; document.getElementById('button').innerHTML = i" id="button" onmouseenter="document.getElementById('button').style.cursor = 'pointer'" style="position:absolute;left:20px;">Card view</button>
+        
         <% games.forEach(game => { %>
         <a href="/game/<%= game.id %>" class="game-card">
           <img src="<%= game.image %>" alt="<%= game.title %>">
