@@ -154,12 +154,22 @@ h1[t="1"]{
 
 button{
   color:white;
-  background:black;
+  background:#d10000;
   border:none;
-  outline: 2px red solid;
-  border-radius:5px;
-  padding:5px;
+  border-radius:11px;
+  padding:10px;
   margin:4px;
+  transition:0.1s all;
+}
+
+button{
+  color:white;
+  background:#8f0000;
+  border:none;
+  border-radius:5px;
+  padding:10px;
+  margin:4px;
+  transition:0.1s all;
 }
 
 .hidden{
@@ -168,8 +178,8 @@ button{
     }
 
 .card {
-  width: 320px;
-  height: 500px;
+  width: 250px;
+  height: 330px;
   background-color: #303030;
   outline: 2px solid white;
   float: left;
