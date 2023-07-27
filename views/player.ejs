@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://rightclick.merkb.repl.co/script.js"></script>
+<link href="https://rightclick.merkb.repl.co/style.css" rel="stylesheet">
     <title>Game0</title>
 <link href="/styles.css" rel="stylesheet">
     <link href="https://i.ibb.co/y6L3X97/image.png" rel="icon">
@@ -8,17 +10,23 @@
   <body style="margin:1;">
     <div class="navbar">
        <a href="javascript:void()" class="sidebar-toggle" onclick="document.getElementsByClassName('sidebar')[0].classList.toggle('open')">≡</a>
-           <div class="sidebar">
-      <h1>Game0</h1>
-      <div>
-        <a href="/">Home</a>
-        <a href="/games">Games</a>
-        <a href="/search">Pro​xies</a>
-        <a href="/chat">Chat</a>
-        <a href="/emulator">Emulator<sup>BETA</sup></a>
-        <a href="/apps">Apps</a>
-      </div>
+ <div class="sidebar">
+  <h1>Game0</h1>
+  <div>
+    <a href="/">Home</a>
+    <a href="/games">Games</a>
+    <a href="/search">Pro​xies</a>
+    <a href="/chat">Chat</a>
+    <div class="emulator">
+    <a href="#">Emulator<sup>BETA</sup></a>
+    <div class="submenu">
+      <a href="/flash">Flash</a>
+      <a href="/emulator">Retro</a>
     </div>
+    </div>
+    <a href="/apps">Apps</a>
+  </div>
+</div>
     <div class="container">
       <h1 class="game-title"><%= game.title %></h1>
       <iframe class="game-iframe" src="<%= game.url %>"></iframe>

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <script src="https://rightclick.merkb.repl.co/script.js"></script>
+<link href="https://rightclick.merkb.repl.co/style.css" rel="stylesheet">
+  
   <head>
     <style>
       ::-webkit-scrollbar {
@@ -12,19 +15,25 @@
   </head>
   <body>
        <a href="javascript:void()" class="sidebar-toggle" onclick="document.getElementsByClassName('sidebar')[0].classList.toggle('open')">≡</a>
-    <div class="sidebar">
-      <h1>Game0</h1>
-      <div>
-        <a href="/">Home</a>
-        <a href="/games">Games</a>
-        <a href="/search">Pro​xies</a>
-        <a href="/chat">Chat</a>
-        <a href="/emulator">Emulator<sup>BETA</sup></a>
-        <a href="/apps">Apps</a>
-      </div>
+ <div class="sidebar">
+  <h1>Game0</h1>
+  <div>
+    <a href="/">Home</a>
+    <a href="/games">Games</a>
+    <a href="/search">Pro​xies</a>
+    <a href="/chat">Chat</a>
+    <div class="emulator">
+    <a href="#">Emulator<sup>BETA</sup></a>
+    <div class="submenu">
+      <a href="/flash">Flash</a>
+      <a href="/emulator">Retro</a>
     </div>
+    </div>
+    <a href="/apps">Apps</a>
+  </div>
+</div>
     <h1>Apps</h1>
-    <p>Clicking on an app card opens it in a new window. you can right click the top of the window and press "open as tab" if you want to.</p>
+    <p>Clicking on an app card opens it in a new window. you can right click the top of the window and press "open as tab" if you want to. (chrome only)</p>
     <center>
     <li class="card" style="list-style:none;float:right;">
     <a href="#" onclick="var h=window.open('about:blank', '', 'width=600, height=450');h.document.documentElement.innerHTML='<iframe src=\'https://g0-mod.merkb.repl.co/web/_aHR0cHM6Ly9kaXNjb3JkLmNvbQ==_/login\' style=\'width:100vw;height:100vh;margin:none;border:none;padding:none;\'></iframe>';h.document.title = 'Discord'"><br><center><img src="https://play-lh.googleusercontent.com/0oO5sAneb9lJP6l8c6DH4aj6f85qNpplQVHmPmbbBxAukDnlO7DarDW0b-kEIHa8SQ=w240-h480-rw" width="150" height="150">

@@ -51,6 +51,10 @@ app.get('/games', (req, res) => {
       res.status(500).send('Internal Server Error');
       return;
     }
+    const gamesData = JSON.parse(data);
+
+    res.render('games', { games: gamesData.games });
+  })});
 
 app.get('/game/:id', (req, res) => {
   const gameId = req.params.id
@@ -60,6 +64,7 @@ app.get('/game/:id', (req, res) => {
       console.error(err);
       res.status(500).send('<p style="font-family:monospace;">Internal Server Error</p>');
       return;
+      
     }
 
     const gamesData = JSON.parse(data);
@@ -71,6 +76,4 @@ app.get('/game/:id', (req, res) => {
 
 app.use((req, res, next) => {
   res.status(404).render('404')
-})
-})
 })

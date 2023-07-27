@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+  <script src="https://rightclick.merkb.repl.co/script.js"></script>
+<link href="https://rightclick.merkb.repl.co/style.css" rel="stylesheet">
   <head>
     <title>Game0</title>
 <link href="/styles.css" rel="stylesheet">
@@ -7,23 +9,30 @@
   </head>
   <body class="load" style="margin:0" onload="document.body.classList.toggle('load')" >
     <a href="javascript:void()" class="sidebar-toggle" onclick="document.getElementsByClassName('sidebar')[0].classList.toggle('open')">≡</a>
-  <div class="sidebar">
-      <h1>Game0</h1>
-      <div>
-        <a href="/">Home</a>
-        <a href="/games">Games</a>
-        <a href="/search">Pro​xies</a>
-        <a href="/chat">Chat</a>
-        <a href="/emulator">Emulator<sup>BETA</sup></a>
-        <a href="/apps">Apps</a>
-      </div>
+   <div class="sidebar">
+  <h1>Game0</h1>
+  <div>
+    <a href="/">Home</a>
+    <a href="/games">Games</a>
+    <a href="/search">Pro​xies</a>
+    <a href="/chat">Chat</a>
+    <div class="emulator">
+    <a href="#">Emulator<sup>BETA</sup></a>
+    <div class="submenu">
+      <a href="/flash">Flash</a>
+      <a href="/emulator">Retro</a>
     </div>
-    <div class="container">
+    </div>
+    <a href="/apps">Apps</a>
+  </div>
+</div>
+
+    <div class="container" id="c">
       <center><h1 t="1">Game0</h1></center>
       <center><input id="searchInput" placeholder="search for games..."></center>
       <div id="gameList">
         
-        <button onclick="document.querySelectorAll('a.game-card').forEach((e)=>{e.classList.toggle('card')});let i = document.getElementById('button').innerHTML; i = i=='List view'?'Card view':'List view'; document.getElementById('button').innerHTML = i" id="button" onmouseenter="document.getElementById('button').style.cursor = 'pointer'" style="position:absolute;left:20px;">Card view</button>
+        <button onclick="document.getElementById('c').classList.toggle('container');document.querySelectorAll('a.game-card').forEach((e)=>{e.classList.toggle('card')});let i = document.getElementById('button').innerHTML; i = i=='List view'?'Card view':'List view'; document.getElementById('button').innerHTML = i" id="button" onmouseenter="document.getElementById('button').style.cursor = 'pointer'" style="position:absolute;left:20px;top:150px;">Card view</button>
         
         <% games.forEach(game => { %>
         <a href="/game/<%= game.id %>" class="game-card">

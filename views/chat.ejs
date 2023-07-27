@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <script src="https://rightclick.merkb.repl.co/script.js"></script>
+<link href="https://rightclick.merkb.repl.co/style.css" rel="stylesheet">
+  
   <head>
     <style>
       ::-webkit-scrollbar {
@@ -12,17 +15,23 @@
   </head>
   <body style="overflow: hidden;">
        <a href="javascript:void()" class="sidebar-toggle" onclick="document.getElementsByClassName('sidebar')[0].classList.toggle('open')">≡</a>
-        <div class="sidebar">
-      <h1>Game0</h1>
-      <div>
-        <a href="/">Home</a>
-        <a href="/games">Games</a>
-        <a href="/search">Pro​xies</a>
-        <a href="/chat">Chat</a>
-        <a href="/emulator">Emulator<sup>BETA</sup></a>
-        <a href="/apps">Apps</a>
-      </div>
+ <div class="sidebar">
+  <h1>Game0</h1>
+  <div>
+    <a href="/">Home</a>
+    <a href="/games">Games</a>
+    <a href="/search">Pro​xies</a>
+    <a href="/chat">Chat</a>
+    <div class="emulator">
+    <a href="#">Emulator<sup>BETA</sup></a>
+    <div class="submenu">
+      <a href="/flash">Flash</a>
+      <a href="/emulator">Retro</a>
     </div>
+    </div>
+    <a href="/apps">Apps</a>
+  </div>
+</div>
     <div class="chat">
       <iframe src="https://c-1.merkb.repl.co" style="width:100vw;height:100vh;outline:none;border:none;position:absolute;top:0px;left:0px;"></iframe>
     </div>
