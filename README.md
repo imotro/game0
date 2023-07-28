@@ -11,6 +11,7 @@ i worked pretty hard on this its a relatively good project, but its even better 
 <br>
 <br>
 <hr>
+
 ### features
 - "search"
 - list and card views
@@ -23,6 +24,7 @@ i worked pretty hard on this its a relatively good project, but its even better 
 
 <br>
 <br>
+
 ### coming soon!!!1!1!
 - top loading bar (like on github)
 - more apps
@@ -32,9 +34,10 @@ i worked pretty hard on this its a relatively good project, but its even better 
 <br>
 <br>
 <br>
+
 ## people i stole ideas from
-i didnt copy any code, but these were good ideas:
-merkgames loading screen - https://mrkg.merkb.repl.co
-susstuff displaying when the next class ends - https://susstuff.repl.co
-basically every google sites page with the sidebar - ...
-kazwire for the idea to call searches searches and have apps - https://kazwire.com
+i didnt copy any code, but these were good ideas:<br>
+merkgames loading screen - https://mrkg.merkb.repl.co<br>
+susstuff displaying when the next class ends - https://susstuff.repl.co<br>
+basically every google sites page with the sidebar - ...<br>
+kazwire for the idea to call searches searches and have apps - https://kazwire.com<br>
