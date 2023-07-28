@@ -160,17 +160,9 @@ button{
   padding:10px;
   margin:4px;
   transition:0.1s all;
+  cursor:pointer;
 }
 
-button{
-  color:white;
-  background:#8f0000;
-  border:none;
-  border-radius:5px;
-  padding:10px;
-  margin:4px;
-  transition:0.1s all;
-}
 
 .hidden{
       display:none;
@@ -332,6 +324,12 @@ a{
   display: block;
 }
 
-
-
+#load{
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:10000000
+}
 

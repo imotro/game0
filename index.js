@@ -3,7 +3,6 @@ const app = express();
 const ip = require('ip');
 const fs = require('fs');
 const port = 3000;
-
 app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
@@ -17,6 +16,12 @@ app.get('/', (req, res)=>{
   console.log(ip.address()+' requesting /...')
   res.render('home')
   console.log('served \'/\'')
+})
+
+app.get('/flash', (req, res)=>{
+  console.log(ip.address()+' requesting /flash...')
+  res.render('flash')
+  console.log('served \'/flash\'')
 })
 
 app.get('/chat', (req, res)=>{
