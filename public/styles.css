@@ -163,6 +163,18 @@ button{
   cursor:pointer;
 }
 
+button:hover{
+  color:red;
+  background:#000000;
+  border:none;
+  border-radius:11px;
+  padding:10px;
+  margin:4px;
+  transition:0.1s all;
+  cursor:pointer;
+  outline: 2px solid white;
+}
+
 
 .hidden{
       display:none;
