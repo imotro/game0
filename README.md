@@ -16,7 +16,7 @@ i worked pretty hard on this its a relatively good project, but its even better 
 - "search"
 - list and card views
 - flash emulator (ruffle)
-- any emulator supported by <a href = "www.emulatorjs.com">EmulatorJS</a>
+- any emulator supported by <a href = "https://www.emulatorjs.com">EmulatorJS</a>
 - real time chat (chat with people only using ur wifi)
 - apps (stuff like youtube and discord, other web apps)
 - advanced but lazy cloaking options
@@ -37,7 +37,7 @@ i worked pretty hard on this its a relatively good project, but its even better 
 
 ## people i stole ideas from
 i didnt copy any code, but these were good ideas:<br>
-merkgames loading screen - https://mrkg.merkb.repl.co<br>
+merk games loading screen - https://mrkg.merkb.repl.co<br>
 susstuff displaying when the next class ends - https://susstuff.repl.co<br>
 basically every google sites page with the sidebar - ...<br>
 kazwire for the idea to call searches searches and have apps - https://kazwire.com<br>
