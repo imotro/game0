@@ -5,7 +5,8 @@
     <script src="https://scripts.merkb.repl.co/periods.js"></script>
     <title>Game0</title>
 <link href="/styles.css" rel="stylesheet">
-    <link href="https://i.ibb.co/y6L3X97/image.png" rel="icon" id="favicon">
+    <link href="https://i.ibb.co/y6L3X97/image.png" rel="icon">
+
   </head>
   <body>
      <a href="javascript:;" class="sidebar-toggle" onclick="document.getElementsByClassName('sidebar')[0].classList.toggle('open')">≡</a>
@@ -40,13 +41,13 @@
     }
     function changeTab(name, favicon) {
       document.title = name || 'Game0';
-      document.getElementById('favicon').href = favicon || 'https://i.ibb.co/y6L3X97/image.png';
+      document.querySelector('link[rel=icon]').href = favicon || 'https://i.ibb.co/y6L3X97/image.png';
       localStorage.setItem('fav', favicon);
       localStorage.setItem('title', name)
     }
     </script>
     <button onclick="openNewTab(window.location.href)">Cloak</button>
-    <button onclick = "document.querySelector('#hide').classList.toggle('hidden')">More options...</button>
+    <button onclick="document.querySelector('#hide').classList.toggle('hidden')" >More options...</button>
     <div id="hide" class="hidden">
       <hr>
       <br>
@@ -64,8 +65,9 @@
       <br>
       <button onclick="var favicon = prompt('Favicon URL:'); var title = prompt('Tab name:'); changeTab(title, favicon)">Custom ＋</button>
        <hr>
-       </div>      <button onclick="localStorage.removeItem('fav');localStorage.removeItem('title');changeTab();">Remove cloak cookies</button>
+       </div>      <button onclick="changeTab('Game0', '')">Remove cloak cookies</button>
     <center><p><img src="https://www.cutercounter.com/hits.php?id=huxnppon&nd=4&style=2" border="0" alt="hit counter"> page visits</p><br><br></center>
          <script src="/cloak.js"></script>
+        <script src="/cookies.js"></script>
   </body>
 </html>
