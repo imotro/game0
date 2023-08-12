@@ -167,6 +167,13 @@
       "description": " Learn to Fly 2 is a free arcade game about sending a penguin flying and earning medals. Thanks to the most advanced engineering in the world, your penguin will start making rickety makeshift gadgets in Antarctica. Send him down a long ramp and then watch him soar, fly and glide through the air.",
       "image": "https://play-lh.googleusercontent.com/FTxEaThS-jI92bh1VTtREJ5Vg4zScb4MSLF6ZoRBvun3I68F-NkC51QqMIfrYynzBqs",
       "url": "https://playgamesfreeaz.info/playgame2/?g=LearnToFly2"
+    },
+      {
+      "id": "98765",
+      "title": "Bonk.io 2",
+      "description": "Bonk.io 2 is an online physics .io game where you compete with up to 9 players. The goal is to defeat your opponents by pushing them into deadly objects (or off the map). Alternatively, you can watch players do this to themselves. Last person standing wins.",
+      "image": "https://bonk.io/graphics/thumb_arrows_nb.jpg",
+      "url": "https://bonkio2.fun/embed"
     }
   ]
 }
