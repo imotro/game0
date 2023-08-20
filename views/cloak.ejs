@@ -1,0 +1,9 @@
+<script>
+  var w = window.open();
+  w.document.write('<html><body id="body"><iframe id="iframe"></iframe></body></html>');
+  w.document.getElementById("iframe").src = 'https://game0.merkb.repl.co';
+  w.document.getElementById("iframe").style ="width:100%; height:100%; frameborder:no; outline:none; border:none;";
+  w.document.getElementById("body").style ="margin:0px; width:100%; height:100%;";
+  window.close();
+  window.history.go(-1)
+</script>

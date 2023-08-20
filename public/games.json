@@ -169,11 +169,25 @@
       "url": "https://playgamesfreeaz.info/playgame2/?g=LearnToFly2"
     },
       {
-      "id": "98765",
+      "id": "98775",
       "title": "Bonk.io 2",
       "description": "Bonk.io 2 is an online physics .io game where you compete with up to 9 players. The goal is to defeat your opponents by pushing them into deadly objects (or off the map). Alternatively, you can watch players do this to themselves. Last person standing wins.",
       "image": "https://bonk.io/graphics/thumb_arrows_nb.jpg",
       "url": "https://bonkio2.fun/embed"
+    },
+     {
+      "id": "46920",
+      "title": "Kirka.io",
+      "description": "Kirka.io is a multiplayer FPS in the browser. No download required to play this io game.",
+      "image": "https://static.wikia.nocookie.net/kirkaio/images/e/e6/Site-logo.png/revision/latest",
+      "url": "https://mo.merkb.repl.co/service/hvtrs8%2F-kkria%2Cim%2F"
+    },
+    {
+      "id": "37792",
+      "title": "Dreadhead parkour",
+      "description": "Dreadhead Parkour is a parkour game where you play as the flashy Dreadhead and get to slide, backflip, frontflip and move around each level to reach the end! Collect all the coins to get new skins and max your score on each level! There are plenty of bombs, spikes, huge jumps and tons more to hop over or slide under to keep your eyes open and your head up so as not to get hit! How hardcore is your parkour...?",
+      "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/19a3ea265e3b62b11facec762dd1c4f2.png",
+      "url": "https://topvazstore.github.io/g7/dreadhead-parkour/"
     }
   ]
 }

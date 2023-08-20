@@ -1,4 +1,5 @@
 if(!localStorage.getItem('cookies')==true){
+  document.cookie="g0=1.21;fav=none;img=none;G0_ID=0;schedule=none;"
   (function() {
   function cookies() {
     return document.cookie.split(';').reduce((cookies, cookie) => {
